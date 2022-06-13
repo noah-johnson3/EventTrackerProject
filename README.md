@@ -1,4 +1,4 @@
-#EventTrackerProject
+### EventTrackerProject
 * Basic CRUD Project using JavaScript for the front end.
 
 #Technologies used
