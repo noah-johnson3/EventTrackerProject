@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Diet Tracker</title>
+<script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+	<h1>Diet Tracker</h1>
+	<form name="dietForm">
+		<input type="number" name="dietId">
+		<button name="lookup">Get Diet By Id</button>
+	</form>
+	<div id="output">
+		<div id="dietData"></div> 
+		<div id="dietDeleteData"></div> 
+	</div>
+	<div id="newDiet">
+	<form name="newDietForm">
+	
+	<label for="name">Name</label>
+		<input type="text" name="name" placeholder="Cheeseburger"><br>
+		
+	<label for="calories">Calories</label>
+		<input type="number" name="calories" placeholder="500"><br>
+		
+	<label for="protein">Protein</label>
+		<input type="number" name="protein" placeholder="25"><br>
+		
+	<label for="carb">Carb</label>
+		<input type="number" name="carb" placeholder="18"><br>
+		
+	<label for="fat">Fat</label>
+		<input type="number" name="fat" placeholder="9"><br>
+		
+		<button name="addDietButton">Add Diet</button>
+	</form>
+	
+	
+	</div>
+</body>
+</html>
